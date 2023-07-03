@@ -168,6 +168,12 @@
     <ClCompile Include="vendors\imgui\imgui_widgets.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\fonts\InterRegular.h">
+      <DeploymentContent>true</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="src\fonts\InterSemiBold.h">
+      <DeploymentContent>true</DeploymentContent>
+    </ClInclude>
     <ClInclude Include="src\main.h" />
     <ClInclude Include="src\core\ui.h" />
     <ClInclude Include="vendors\imgui\imconfig.h" />
