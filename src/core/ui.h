@@ -17,8 +17,8 @@ public:
 		auto colors = style.Colors;
 
 		// Colors
-		colors[ImGuiCol_WindowBg] = ImColor(9, 14, 20);
-		colors[ImGuiCol_ChildBg] = ImColor(12, 22, 34);
+		colors[ImGuiCol_WindowBg] = ImColor(9, 14, 20, 255);
+		colors[ImGuiCol_ChildBg] = ImColor(12, 22, 34, 255);
 		
 		// Others styles
 		style.WindowPadding = ImVec2(0, 0);
