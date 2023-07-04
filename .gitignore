@@ -1,5 +1,6 @@
 builds/
 .vs/
-**.sln
-**.vcxproj.filters
-**.vcxproj.user
+*.sln
+*.vcxproj.filters
+*.vcxproj.user
+*.ini
