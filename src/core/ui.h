@@ -40,6 +40,7 @@ private:
 	ImFont* InterRegular = nullptr;
 	ImVec2 startup_size = ImVec2(410, 323);
 	ImVec2 child_size = ImVec2(410, 219);
+
 	DWORD flags = ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize;
 };
 
